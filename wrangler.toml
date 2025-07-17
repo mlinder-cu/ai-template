@@ -12,4 +12,4 @@ bindings = [
 # Durable objects require migrations to create/modify/delete them
 [[migrations]]
 tag = "v1"
-new_classes = ["TldrawAiDurableObject"]
+new_sqlite_classes = ["TldrawAiDurableObject"]
